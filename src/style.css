@@ -1,0 +1,76 @@
+body{
+        font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;
+        color:rgba(242,244,246,.9)
+}
+#menu{
+    vertical-align: middle;
+    line-height:40px;
+    display: inline-block;
+}
+.nav{
+    color:rgba(242,244,246,.9)
+}
+.nav:hover{
+    color:#fff;
+
+}
+.txt{
+    font-size: large;
+    font-weight: 600;
+    float:right;
+    text-decoration: none;
+    color:rgba(242,244,246,.9)
+}
+.txt:hover{color:#fff;}
+a{
+    font-size: large;
+    font-weight: 600;
+    float:right;
+    text-decoration: none;
+    color:rgba(242,244,246,.9)
+}
+a:hover{
+    color:#fff;
+}
+.hdr{
+    background-color: rgb(27 37 48);
+}
+
+li{
+    text-align: left;
+    list-style: none;
+}
+.arrow {
+    border: solid rgba(242,244,246,.9);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+ul{
+    background-color: rgb(27 37 48);
+    width:65px;
+}  
+.no{
+    display:none;
+}
+#small,#ull-sm{
+    visibility: hidden;
+}
+@media screen and (max-width: 450px) {
+#globe,#ull,#sign{
+    display: none;
+}
+#small{
+    visibility: visible;
+}
+
+
+}
