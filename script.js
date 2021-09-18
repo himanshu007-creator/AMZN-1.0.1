@@ -23,3 +23,28 @@ smull.addEventListener("click", () => {
   smull.classList.toggle("fa-user");
   smull.classList.toggle("fa-cross");
 });
+
+var langdd = document.getElementById("langlist");
+langdd.addEventListener("click", () => {
+  var x = document.getElementsByClassName("active");
+  for (i = 0; i < x.length; i++) {
+    var elem = x[i];
+    elem.classList.toggle("nv");
+  }
+});
+
+var languages = document.getElementsByClassName("active");
+for (const x of languages) {
+  var s = document.createElement("i");
+  s.classList.add("fa-solid");
+  s.classList.add("fa-check");
+  console.log(s);
+  x.addEventListener("click", () => {
+    for (const item of languages) {
+      var i = item.firstChild;
+      if (!i.classList.contains("nv")) i.classList.add("nv");
+    }
+    var txt = x.children[0];
+    txt.classList.toggle("nv");
+  });
+}
