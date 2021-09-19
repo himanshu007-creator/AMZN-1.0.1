@@ -1,6 +1,8 @@
 body{
         font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;
-        color:rgba(242,244,246,.9)
+        color:rgba(242,244,246,.9);
+        margin:0;
+        padding:0;
 }
 #menu{
     vertical-align: middle;
@@ -14,7 +16,12 @@ body{
     color:#fff;
 
 }
-
+#smile{
+    position:relative;top:-131px;left:200px;opacity: .3;pointer-events: none;
+}
+#smile:hover{
+    opacity:1;
+}
 .txt{
     font-size: large;
     font-weight: 600;
