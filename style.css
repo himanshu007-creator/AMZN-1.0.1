@@ -95,7 +95,7 @@ html{
     width:70px;
 }
 .hero{
-    float:right;width:100%;height:755px;background-size: contain;overflow: hidden;background-image: url(./assets/amzn.jpg);background-size: 100% 130%;
+    float:right;width:100%;height:720px;background-size: contain;overflow: hidden;background-image: url(./assets/amzn.jpg);background-size: 100% 130%;
 }
 .hero-cont{
     height:670px;width:100vw;background-color: rgb(2 2 2 / 8%);padding:150px 60px;object-fit:fill;word-wrap: break-word;
