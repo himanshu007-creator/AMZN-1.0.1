@@ -1,3 +1,27 @@
+window.addEventListener("load", () => {
+  function sleep(time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+  }
+  function fade() {
+    var x = document.getElementById("smile");
+    x.style.opacity = 0;
+  }
+  // Usage!
+  sleep(3000).then(() => {
+    fade();
+  });
+  var myinterval;
+  myinterval = setInterval(myFunction, 1500);
+  async function myFunction() {
+    var x = document.getElementById("smile");
+    x.style.opacity = 1;
+    clearInterval(myinterval);
+  }
+});
+
+document.addEventListener("scroll", () => {
+  // console.log(EventTarget);
+});
 var lang = document.getElementById("lang");
 var ull = document.getElementById("ull");
 lang.addEventListener("click", () => {

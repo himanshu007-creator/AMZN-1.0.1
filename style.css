@@ -4,6 +4,10 @@ body{
         margin:0;
         padding:0;
 }
+html{
+    scroll-behavior: smooth;
+
+}
 #menu{
     vertical-align: middle;
     line-height:40px;
@@ -17,10 +21,12 @@ body{
 
 }
 #smile{
-    position:relative;top:-131px;left:200px;opacity: .3;pointer-events: none;
+    position:relative;top:-131px;left:200px;opacity: .0;
+    height:500px;width:70%;
+    transition:all 1s;
 }
 #smile:hover{
-    opacity:1;
+    opacity:.7 !important;
 }
 .txt{
     font-size: large;
@@ -88,9 +94,89 @@ body{
 #ull{
     width:70px;
 }
+.hero{
+    float:right;width:100%;height:755px;background-size: contain;overflow: hidden;background-image: url(./assets/amzn.jpg);background-size: 100% 130%;
+}
+.hero-cont{
+    height:670px;width:100vw;background-color: rgb(2 2 2 / 8%);padding:150px 60px;object-fit:fill;word-wrap: break-word;
+}
+.hero-txt{
+    word-wrap: break-word;
+}
+.hero-h1{
+    font-size: 2rem;color:white;font-weight: 700;letter-spacing: 1px;font-size: 2rem;
+}
+.hero-h5{
+    color:white;width:50%;
+}
+.butn{
+    background-color:#0f79af;color:white;width:300px;height:55px;box-shadow: 0px 0px 0px transparent;border: 0px solid transparent;text-shadow: 0px 0px 0px transparent;
+}
+.hero-right{
+    float:right;position:relative;left:130px;
+}
+/* Chota PC*/
+@media screen and (max-width: 1024px) {
+    .hero{
+        background-size: 100% 100%;
+    }
+    .hero-h1{
+        font-size: 25px;
+    }
+    .hero-h5{
+        width:40%;
+    }
+    .butn{
+        width:270px;
+        height:53px;
+    }
+    #smile{
+        position:relative;top:-120px;left:200px;opacity: .0;
+        height:450px;width:70%;
+        transition:all 1s;
+    }
+    .hero-right{
+        left:160px;
+    }
+}
 
+/* tablet */
+@media screen and (max-width: 768px) {
+.hero{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#simle{
+    width:70%;
+    height:100;
+    position:relative;
+    right:400px;
+}
+.hero-h1{
+    font-size: 20px;
+}
+.hero-h5{
+    width:30%;
+}
+.butn{
+    width:220px;
+    height:50px;
+}
+#smile{
+    height:200px;
+    width:70%;
+    position:relative;
+    top:1px;
+    right:30px;
+}
+.hero-right{
+    left:165px;
+}
 
-@media screen and (max-width: 450px) {
+}
+
+/* Phone*/
+@media screen and (max-width: 426px) {
 #globe,#ull,#sign{
     display: none;
 }
@@ -109,12 +195,11 @@ body{
     background-color: #011d3f;
 }
 
+} 
 
-/* ul>ol>li{
-    padding:5px;
-}
-ul:ol:li:hover{
-    background-color: beige;
-} */
+/* chota phone */
+@media screen and (max-width: 375px) {
+
+
 
 }
