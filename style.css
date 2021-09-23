@@ -125,7 +125,11 @@ html{
     float:right;position:relative;left:770px;
 }
 .foot-a{
-    text-decoration: none;color:#0f79af
+    text-decoration: none;color:#0ea3ee;
+}
+.foot-a:hover{
+    color:#0ea3ee !important;
+    text-shadow: #222;
 }
 #foot-ua{
     text-decoration: none;color:white;
