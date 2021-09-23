@@ -1,6 +1,6 @@
-# AMZN
-### v1.0.1
-This project aims at studying and improving the <a href="https://www.primevideo.com/">Prime video</a> website, which is an Amazon's subsidiary.
+# <a href="https://himanshu007-creator.github.io/AMZN-1.0.1/">AMZN</a>
+### v1.0.1 check this out <a href="https://himanshu007-creator.github.io/AMZN-1.0.1/">here</a>
+<a href="https://himanshu007-creator.github.io/AMZN-1.0.1/">This</a> project aims at studying and improving the <a href="https://www.primevideo.com/">Prime video</a> website, which is an Amazon's subsidiary.
 
 ## Findings
 ### Pros
@@ -25,5 +25,5 @@ This project aims at studying and improving the <a href="https://www.primevideo.
 - migrate project to react
 - make a UI/UX report
 
-### How to setup teh project?!
-well its easy, either <code>Fork and CLone</code> or simply <code>Download code</code>
+### How to setup the project?!
+well its easy, either <code>Fork and Clone</code> or simply <code>Download code</code>
