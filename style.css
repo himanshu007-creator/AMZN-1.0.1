@@ -12,7 +12,7 @@ html{
     padding:20px 5px;float:left;width:450px;text-align: center;position:relative;left:60px;
 }
 .crd-h5{
-    width:75%;position:relative;left:60px;
+    width:75% !important;position:relative;left:60px;
 }
 #menu{
     vertical-align: middle;
@@ -96,6 +96,8 @@ html{
 #sm{
     width:100%;height:670px;
     background-color: #252e39;
+    position:relative;
+    z-index:10;
 }
 #ull{
     width:70px;
@@ -113,13 +115,14 @@ html{
     font-size: 2rem;color:white;font-weight: 700;letter-spacing: 1px;font-size: 2rem;
 }
 .hero-h5{
-    color:white;width:75%;
+    color:white;width: 39% ;
 }
 .butn{
-    background-color:#0f79af;color:white;width:300px;height:55px;box-shadow: 0px 0px 0px transparent;border: 0px solid transparent;text-shadow: 0px 0px 0px transparent;
+    background-color:#0f79af;color:white;width:300px;height:55px;box-shadow: 0px 0px 0px transparent;border: 0px solid transparent;text-shadow: 0px 0px 0px transparent;    position: relative;
+    top:50px;
 }
 .hero-right{
-    float:right;position:relative;left:130px;
+    float:right;position:relative;left:770px;
 }
 .foot-a{
     text-decoration: none;color:#0f79af
@@ -128,7 +131,7 @@ html{
     text-decoration: none;color:white;
 }
 .footer{
-    background-image: none;background-color:#222 !important;height: 105px !important;;padding:30px 350px;
+    background-image: none;background-color:#222 !important;height: 105px !important;padding:30px 350px;
 }
 #foot-cont{
     position:relative;left:150px;font-size: smaller;
@@ -144,6 +147,7 @@ html{
     }
     .hero-h1{
         font-size: 25px;
+        color:white;
     }
     .hero-h5{
         width:40%;
@@ -158,7 +162,7 @@ html{
         transition:all 1s;
     }
     .hero-right{
-        left:220px;
+        left:584px;
     }
     .crd{
         width: 341px;
@@ -174,7 +178,8 @@ html{
         left:250px;
     }
     .crd-h5{
-        width:70%;
+        width:70% ;
+        left:50px;
     }
 }
 
@@ -206,7 +211,7 @@ html{
     right:30px;
 }
 .hero-right{
-    left:320px;
+    left:450px;
     bottom:120px;
 }
 .footer{
@@ -239,7 +244,10 @@ html{
 
 /* Phone*/
 @media screen and (max-width: 426px) {
-#globe,#ull,#sign{
+    html{
+        height:600px;
+    }
+#globe,#ull,#sign,#smile{
     display: none;
 }
 #small,#sm{
@@ -251,14 +259,38 @@ html{
     top:-670px;
     background-position:center top;
     background-position-x: right;
-    background-size: 160% 70%;
+    background-size: 160% 60%;
     background-color: black;
-    height:600px;
+    height:530px;
+}
+.hero-right{
+    left:0;
+    height:auto;
+    top:2px;
+}
+.hero-cont{
+    position: relative;
+    top: 167px;
+}
+.hero-h1{
+    font-size: larger;
+}
+.hero-h5{
+    width: 120% !important;
+    font-size: 15px;
+}
+.hero-txt{
+    position: relative;
+    left:-1px;
 }
 #smile{
-    top:-200px;
+    top:-350px;
     left:5px;
     width:100%;
+}
+.butn{
+    width:300px;
+    top:0;
 }
 #ul-sm{
     padding: 0;
@@ -271,12 +303,74 @@ html{
 .active{
     background-color: #011d3f;
 }
-
+.ctr{
+    background-position-x: inherit !important;
+}
+#blu{
+    height:1100px !important;
+    background-size:cover;
+}
+.crd{
+    left:100px;
+}
+.crd-h5{
+    left:-15px;
+}
+.footer{
+padding:28px 0px;
+height:140px !important;
+}
+#foot-img{
+    left:180px;
+}
+#foot-cont{
+    left:70px;
+    width:74%;
+}
 } 
 
 /* chota phone */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
+.crd{
+    left:60px;
+}
+#foot-img{
+    left:150px;
+}
+#foot-cont{
+    left:60px;
+    width:81% !important;
+}
+.hero-right{
+    left:15px!important;
+}
+.hero-txt{
+    left:-20px;
+    top:5px;
+}
+}
 
-
-
+/*baala hi chota phone, just like NOKIA 3310🙂*/
+@media screen and (max-width: 321px){
+    #foot-img{
+        left:120px !important;
+    }
+    #foot-cont{
+        left:20px;
+        width:88% !important;
+        font-size:12px;
+    }
+    .hero-h5{
+        font-size:smaller;
+    }
+    #blu{
+        height:1000px !important;
+        background-size:cover;
+    }
+    .butn{
+        width:250px;
+    }
+    .crd{
+        left:40px;
+    }
 }

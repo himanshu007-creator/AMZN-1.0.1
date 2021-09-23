@@ -45,7 +45,7 @@ smull.addEventListener("click", () => {
   var sm = document.getElementById("sm");
   sm.classList.toggle("nv");
   smull.classList.toggle("fa-user");
-  smull.classList.toggle("fa-cross");
+  smull.classList.toggle("fa-times");
 });
 
 var langdd = document.getElementById("langlist");
