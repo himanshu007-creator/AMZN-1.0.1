@@ -17,8 +17,8 @@
 
 ### My improvements/changes
 1. Made logo of header and footer consistent
-2. Improved the contrast rario of fooetr hyperlinks
-3. replaced white background witha  gradient background of amazon's blue with a shade of white ( _spotlight effect_ )
+2. Improved the contrast rario of footer hyperlinks ( increased accessibility by 4% ( 74 -> 78%!!)
+3. replaced white background with a gradient background of amazon's blue with a shade of white ( _spotlight effect_ )
 4. Amazon's smile visible <code>2s</code> after website loads.
 
 ### work to be done:-
