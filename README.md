@@ -5,7 +5,7 @@
 ## Findings in existing website
 ### Pros
 1. Website have a decent theme and less/no animations make loading time fast
-2. Website fully goes with teh concept of an OTT platform's website , going well with teh dark theme, with a tough of <a href="https://www.schemecolor.com/amazon-prime-blue-logo-color-scheme.php">amazon's iconic blue</a>
+2. Website fully goes with the concept of an OTT platform's website , going well with the dark theme, with a tough of <a href="https://www.schemecolor.com/amazon-prime-blue-logo-color-scheme.php">amazon's iconic blue</a>
 3. Website is great in terms of responsivity its really awesome. Things start to get affected after 294px(the signup button begins to snip).
 
 ### Cons
@@ -17,9 +17,10 @@
 
 ### My improvements/changes
 1. Made logo of header and footer consistent
-2. Improved the contrast rario of footer hyperlinks ( increased accessibility by 4% ( 74 -> 78%!!)
+2. Improved the contrast ratio of footer hyperlinks 
 3. replaced white background with a gradient background of amazon's blue with a shade of white ( _spotlight effect_ )
-4. Amazon's smile visible <code>2s</code> after website loads.
+4. Amazon's smile visible <code>2s</code> after website loads
+5. increased accessibility by 4% ( 74 -> 78%!!)
 
 ### work to be done:-
 - migrate project to react
